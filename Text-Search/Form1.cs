@@ -82,10 +82,6 @@ namespace Text_Search
 
             //finding the line number by checking the line from the current character index inside the Text Area.
             int line = rtbTextArea.GetLineFromCharIndex(sel) + 1;       //Adding 1 as the retreived Line Number is Zero based
-
-            /*
-             *  STUCK HERE----SUCK HERE----SUCK HERE----SUCK HERE----SUCK HERE----SUCK HERE
-             */
             
             //Printing the current Line number as string.
             lnsLabel.Text = line.ToString();
@@ -118,6 +114,6 @@ namespace Text_Search
         
 
      
-    }
+    
 }
 
